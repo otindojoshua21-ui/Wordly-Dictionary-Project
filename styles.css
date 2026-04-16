@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 5px;
+}
+
+
+#result {
+  margin-top: 20px;
+}
+
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: #222;
+  color: white;
+}
+
+.dark-mode button {
+  background-color: red;
+}
